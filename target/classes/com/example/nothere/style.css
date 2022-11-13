@@ -1,0 +1,21 @@
+Button
+{
+    -fx-background-color: Green;
+    -fx-text-fill: white;
+}
+
+Label
+{
+    -fx-background-color: green;
+    -fx-font-size: 35;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+
+}
+
+Button:hover
+{
+    -fx-background-color: white;
+    -fx-text-fill: Black;
+    -fx-border-radius: 1000px;
+}
