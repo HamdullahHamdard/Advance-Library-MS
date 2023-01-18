@@ -48,7 +48,7 @@ public class HelloController {
         String auther = author.getText();
         String publish = publisher.getText();
         int idNo = Integer.parseInt(idn);
-
+        // add the databases 
         int result = dataBase.addBook(idNo , name , auther , publish);
         if(result!=0)
         {
